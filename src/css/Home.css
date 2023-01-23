@@ -1,0 +1,26 @@
+h1 {
+    color: white;
+    margin-left: 4em;
+    font-size: 7vh;
+}
+
+img {
+    height: 50vh;
+    width: auto;
+}
+
+.home_mainBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+.name-header span {
+    color: rgb(43, 226, 202);
+    font-size: 9vh;
+}
+
+.headshot-image {
+    margin-right: 10vw;
+}

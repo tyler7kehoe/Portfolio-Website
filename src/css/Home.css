@@ -1,12 +1,27 @@
+.name-header {
+    margin-left: 10vw;
+}
+
 h1 {
     color: white;
-    margin-left: 4em;
-    font-size: 7vh;
+    font-size: 4vw;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 1.5vw;
 }
 
 img {
-    height: 50vh;
+    height: 55vh;
     width: auto;
+    border-radius: 10%;
+    opacity: 0.8;
+    transition: transform 1.25s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 .home_mainBox {
@@ -18,7 +33,7 @@ img {
 
 .name-header span {
     color: rgb(43, 226, 202);
-    font-size: 9vh;
+    font-size: 5.5vw;
 }
 
 .headshot-image {

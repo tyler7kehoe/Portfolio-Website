@@ -7,11 +7,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Header() {
   return (
     <div className='header'>
+        {/* Left side logo link */}
         <div className='header_left'>
             <NavLink to='/' className='header_name'>TK</NavLink>
         </div>
+        {/* Links on the right side */}
         <div className='header_links'>
-            
+            <NavLink to='/about' className='header_aboutLink'>About</NavLink>
+
             <NavLink to='/projects' className='header_projectsLink'>Projects</NavLink>
 
             <NavLink to='/contact' className='header_contactLink'>Contact</NavLink>

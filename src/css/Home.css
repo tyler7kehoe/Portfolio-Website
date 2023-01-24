@@ -2,25 +2,25 @@
     margin-left: 10vw;
 }
 
-h1 {
+.home_mainBox h1 {
     color: white;
     font-size: 4vw;
 }
 
-h2 {
+.home_mainBox h2 {
     color: whitesmoke;
     font-size: 1.5vw;
 }
 
-img {
-    height: 55vh;
+.home_mainBox img {
+    height: 57vh;
     width: auto;
     border-radius: 10%;
     opacity: 0.8;
     transition: transform 1.25s ease-in-out;
 }
 
-img:hover {
+.home_mainBox img:hover {
     transform: scale(1.1);
 }
 

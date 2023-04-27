@@ -9,8 +9,8 @@ function ProjectCard(props) {
             <img src={props.img} alt="" />
             <h2 className='card-title'>{props.title}</h2>
             <p className='card-description'>{props.desc}</p>
+            <a href={props.link} target='_blank'>View project here!</a>
         </div>
-        <button className='card-button'>View Project</button>
     </div>
   )
 }

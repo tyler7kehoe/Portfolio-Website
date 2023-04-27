@@ -1,0 +1,24 @@
+
+.project-card {
+    border: 2px;
+    border-color: white;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+.project-card a {
+    color:black;
+    border: 2px solid rgb(43, 226, 202);
+    
+}
+
+.card-body {
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    background-color: rgb(43, 226, 202);
+    opacity: .9;
+}

@@ -1,3 +1,4 @@
+// use npm run dev to start
 import { useState } from 'react'
 import './css/Home.css'
 import { Routes, Route} from 'react-router-dom'

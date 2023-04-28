@@ -16,7 +16,7 @@ export const Projects = () => {
         img=''
         title='Portfolio Website'
         desc='This here website you are checking out! Developed using React.js.'
-        link='https://tylerkehoe.com'
+        link='https://github.com/tyler7kehoe/portfolio-website'
       />
     </div>
   )

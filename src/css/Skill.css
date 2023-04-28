@@ -1,0 +1,19 @@
+.skill-list {
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-body-skill {
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    background-color: rgb(43, 226, 202);
+    opacity: .9;
+    transition: transform .75s ease-in-out;
+}
+
+.card-body-skill:hover {
+    transform: scale(1.1);
+}

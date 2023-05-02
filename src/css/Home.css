@@ -31,9 +31,13 @@
     margin-top: 15vh;
 }
 
-.name-header span {
+#name {
     color: rgb(43, 226, 202);
     font-size: 5.5vw;
+}
+
+#uni {
+    color: red;
 }
 
 .headshot-image {

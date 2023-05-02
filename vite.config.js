@@ -4,13 +4,12 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  esbuild: {
-    jsxFactory: 'React.createElement',
-    jsxFragment: 'React.Fragment',
+  base: '/portfolio-website/',
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
   },
-  css: {
-    modules: {
-      localsConvention: 'camelCaseOnly',
-    },
-  },
+  server: {
+    historyApiFallback: true,
+  }
 })

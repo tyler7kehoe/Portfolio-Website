@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [react()],
   base: '/portfolio-website/',
   build: {
-    outDir: 'dist',
+    outDir: 'build',
     emptyOutDir: true,
+
   },
   server: {
     historyApiFallback: true,

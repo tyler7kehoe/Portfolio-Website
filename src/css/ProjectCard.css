@@ -3,8 +3,9 @@
     border: 2px;
     border-color: white;
     margin-top: 10vh;
-    margin-left: 40vw;
-    margin-right: 40vw;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    max-width: 80%;
 }
 
 .project-card a {

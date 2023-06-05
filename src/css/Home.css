@@ -9,20 +9,16 @@
 
 .home_mainBox h2 {
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 
 .home_mainBox img {
-    height: 57vh;
+    max-height: 57vh;
     width: auto;
     border-radius: 10%;
     opacity: 0.8;
-    transition: transform 1.25s ease-in-out;
 }
 
-.home_mainBox img:hover {
-    transform: scale(1.1);
-}
 
 .home_mainBox {
     display: flex;
@@ -39,3 +35,38 @@
 .headshot-image {
     margin-right: 10vw;
 }
+
+@media (max-width: 800px) {
+    .home_mainBox {
+        margin-top: 5vh;
+        flex-direction:column;
+        align-items: center;
+        margin-left: 1vh;
+    }
+
+    .name-header {
+        margin-left: 0;
+    }
+
+    .name-header h1 {
+        font-size: 5vw;
+    }
+
+    #name {
+        font-size: 6vw;
+    }
+
+    .name-header h2 {
+        font-size: 3.5vw;
+    }
+
+    .headshot-image {
+        margin-top: 20vw;
+        margin-right: 0;
+    }
+
+    .home_mainBox img {
+        max-width: 100%;
+    }
+}
+

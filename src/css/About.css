@@ -12,6 +12,13 @@
     margin-top: 5vh;
 }
 
+@media (max-width: 800px) {
+    .skills {
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+}
+
 .skills h1 {
     font-size: 10vw;
     color: white;

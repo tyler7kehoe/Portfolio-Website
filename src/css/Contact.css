@@ -3,4 +3,17 @@
     justify-content: center;
     color: whitesmoke;
     margin-top: 20vw;
+    font-size: 2vh;
+}
+
+#email {
+    color: rgb(43, 226, 202);
+}
+
+@media (max-width: 800px) {
+    .contact-me {
+        font-size: 2.5vh;
+        margin-top: 30vh;
+        margin-left: 2vh;
+    }
 }

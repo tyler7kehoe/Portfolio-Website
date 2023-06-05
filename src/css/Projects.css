@@ -6,4 +6,12 @@
 
 .projects-list h1 {
     color: whitesmoke;
+    font-size: 2vw;
 }
+
+@media (max-width: 800px) {
+    .projects-list h1 {
+        font-size: 7vw;
+    }
+}
+

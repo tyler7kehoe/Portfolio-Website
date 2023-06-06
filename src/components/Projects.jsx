@@ -26,6 +26,12 @@ export const Projects = () => {
       />
       <ProjectCard
         img=''
+        title='UDP Network Emulator'
+        desc='Computer Networks network emulator. Packets are requested and sent through a network emulator to emulate packet forwarding.'
+        link='https://github.com/tyler7kehoe/network-emulator/'
+      />
+      <ProjectCard
+        img=''
         title='Portfolio Website'
         desc='This here website you are checking out! Developed using React.js.'
         link='https://github.com/tyler7kehoe/portfolio-website'

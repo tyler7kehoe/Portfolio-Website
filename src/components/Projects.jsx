@@ -15,19 +15,19 @@ export const Projects = () => {
       <ProjectCard
         img=''
         title='LetsGetPhysical - Workout Partner Finder'
-        desc='Software Engineering course group project during my senior year of college. I worked on the backend developing an API for our app. Developed using FastAPI paired with MongoDB, with React.js on the frontend.'
+        desc='Software Engineering course group project during my senior year of college. I worked on the backend developing an API and maintaining our NoSQL MongoDB database. Developed using FastAPI paired with MongoDB, with React.js on the frontend.'
         link='https://github.com/tyler7kehoe/workout-partner-finder'
       />
       <ProjectCard
         img='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmEwOWExZWU0YjM0MDcyNjdmNzE2OTU3OWRkNzViMzI4NjY0ZDgxYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sUhP1XxfPI9tTIFRhp/giphy.gif'
         title='WebGL pyramid with shaders and animation'
-        desc='Computer Graphics (CS 559) at UW-Madison'
+        desc='Computer Graphics (CS 559) project at UW-Madison'
         link='https://github.com/tyler7kehoe/rainbow-pyramid'
       />
       <ProjectCard
         img=''
-        title='UDP Network Emulator'
-        desc='Computer Networks network emulator. Packets are requested and sent through a network emulator to emulate packet forwarding.'
+        title='UDP Protocol Network Emulator'
+        desc='Computer Networks class project. Packets are requested and sent through a network emulator to emulate packet forwarding. Works with multiple instances of requesters and senders on different ports.'
         link='https://github.com/tyler7kehoe/network-emulator/'
       />
       <ProjectCard

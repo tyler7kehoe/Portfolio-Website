@@ -5,7 +5,7 @@ import Skill from './Skill'
 
 export const About = () => {
   const programmingLanguages = ['Python', 'Java', 'C', 'SQL', 'JavaScript'];
-  const backendSkills = ['Node.js','Express.js','MongoDB','REST APIs','MySQL','FastAPI','GCP','Firebase'];
+  const backendSkills = ['Node.js','Express.js','MongoDB','REST APIs','MySQL','FastAPI', 'Pytorch', 'GCP','Firebase'];
   const frontendSkills = ['React','HTML','CSS','JSX','React Native','WebGL'];
   const devTools = ['Git', 'GitLab', 'Agile Development (Scrum)'];
   return (

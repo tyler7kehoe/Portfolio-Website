@@ -30,6 +30,15 @@
 #name {
     color: rgb(43, 226, 202);
     font-size: 5.5vw;
+    transition: 0.75s;
+}
+
+#name:hover {
+    color:rgb(43, 226, 202);
+    text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
 }
 
 .headshot-image {

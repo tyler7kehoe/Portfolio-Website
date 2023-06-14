@@ -31,11 +31,17 @@ export const Projects = () => {
         link='https://github.com/tyler7kehoe/network-emulator/'
       />
       <ProjectCard
+        img='https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/embedding.gif'
+        title='Pytorch Clothing Predictor Trained By Nueral Network'
+        desc='Artificial Intelligence class project. Creates and trains a neural network that labels images of clothing. Trained on the FashionMNIST dataset from Pytorch.'
+        link='https://github.com/tyler7kehoe/clothing-labeler'
+      />
+      <ProjectCard
         img=''
         title='Portfolio Website'
         desc='This here website you are checking out! Developed using React.js.'
         link='https://github.com/tyler7kehoe/portfolio-website'
-      />
+      />  
     </div>
   )
 }

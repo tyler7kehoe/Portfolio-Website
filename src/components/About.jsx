@@ -4,10 +4,10 @@ import Skill from './Skill'
 
 
 export const About = () => {
-  const programmingLanguages = ['Python', 'Java', 'SQL', 'JavaScript'];
-  const backendSkills = ['Node.js','Express.js','MongoDB','REST APIs','MySQL','FastAPI', 'Pytorch', 'GCP'];
+  const programmingLanguages = ['Python', 'Java', 'SQL', 'JavaScript', 'TypeScript'];
+  const backendSkills = ['AWS', 'DynamoDB','Node.js','Express.js','MongoDB','REST APIs','MySQL','FastAPI', 'Pytorch', 'GCP'];
   const frontendSkills = ['React','HTML','CSS','JSX','React Native','WebGL'];
-  const devTools = ['Git', 'GitLab', 'Agile Development (Scrum)'];
+  const devTools = ['Terraform','Git', 'GitLab', 'Grafana', 'Docker'];
   return (
     <div>
       <div className='about-header'>
